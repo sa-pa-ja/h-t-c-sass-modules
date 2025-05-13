@@ -1,0 +1,30 @@
+// @use "../abstracts/colors" as *;
+// @use "../abstracts/fonts" as *;
+
+// .card {
+//     font-size: $font-size;
+//     color: $blue;
+// }
+
+// @use "../abstracts";
+
+// .card {
+//     font-size: abstracts.$font-size;
+//     color: abstracts.$red;
+// }
+
+
+// @use "../abstracts/" as a;
+
+
+// .card {
+//     font-size: a.$font-size;
+//     color: a.$red;
+// }
+
+@use "../abstracts/" as *;
+
+.card {
+    font-size: $font-size;
+    color: $blue;
+}

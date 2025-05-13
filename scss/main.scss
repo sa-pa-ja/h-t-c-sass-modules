@@ -1,5 +1,21 @@
-$font-size: 1.5rem;
+// @import "./abstracts/fonts";
+
+// body {
+//   font-size: $font-size;
+// }
+
+@use "./abstracts/fonts";
+@use "./abstracts/colors";
+
+@use "./components/cards";
 
 body {
-    font-size: $font-size;
+    font-size: fonts.$font-size;
+    color: colors.$red;
 }
+
+// @use "./abstracts/fonts" as a;
+
+// body {
+//     font-size: a.$font-size;
+// }
